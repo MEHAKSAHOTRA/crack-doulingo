@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+
+    <title>C-Test Q-type</title>
+
+    <style>
+        .text-center {
+            text-align: center;
+            display: block;
+        }
+
+        .dropdown,
+        .btn.btn-secondary {
+            display: block;
+            width: 100%;
+        }
+
+        body {
+
+            background-color: #eee;
+        }
+
+        table th,
+        table td {
+            text-align: center;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #BEF2F5
+        }
+
+        .pagination li:hover {
+            cursor: pointer;
+        }
+
+  
+   
+          
+    </style>
+</head>
+
+<body>
+
+    <!--****************** Nav Bar******************  -->
+    
+    
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <pre><b>Crack-Doulingo</b></pre>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 topN">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">
+                            <pre><b>Home</b></pre>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../aboutTest.html">
+                            <pre><b>All You Need to Know</b></pre>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown sp">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Practice here
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./dictation.html">Dictation</a></li>
+                            <li><a class="dropdown-item" href="./y-n-vocab.html">Yes-No Vocabulary</li>
+                            <li><a class="dropdown-item" href="./describe-img.html">describe img</a></li>
+                            <li><a class="dropdown-item" href="./c-test.html">C-Test</a></li>
+                            <li><a class="dropdown-item" href="./talk-write.html">Describe your opinion</a></li>
+    
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">
+                            <pre><b>Contact Us</b></pre>
+                        </a>
+                    </li>
+    
+                </ul>
+    
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    
+    
+    
+    <!--****************** Nav Bar******************  -->
+
+    
+
+
+    <h1 class="text-center">C-Test</h1><hr>
+
+    <div class="container">
+        <h6>Select Number Of Rows</h6>
+        <div class="form-group">
+            <!--		Show Numbers Of Rows 		-->
+            <select class="form-control" name="state" id="maxRows">
+                <option value="5000">Show ALL Rows</option>
+                <option value="5">
+                    <p>number of rows showing: </p>5
+                </option>
+                <option value="10">
+                    <p>number of rows showing: </p>10
+                </option>
+                <option value="15">
+                    <p>number of rows showing: </p>15
+                </option>
+                <option value="20">
+                    <p>number of rows showing: </p>20
+                </option>
+                <option value="50">
+                    <p>number of rows showing: </p>50
+                </option>
+                <option value="70">
+                    <p>number of rows showing: </p>70
+                </option>
+                <option value="100">
+                    <p>number of rows showing: </p>100
+                </option>
+            </select>
+
+        </div>
+
+
+        <!-- ****************table**************** -->
+
+
+        <table class="table table-striped table-class " id="table-id">
+
+
+            <tbody>
+                <tr>
+                    <td class="text-center">All Practice questions are here</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="container my-5">
+                            <h3>Complete the missing letters</h3>
+                            <h5>
+                                <hr>
+                                As stage manager I w_ _ always the first and the l_ _ _ person on stage.
+                                Working on tour can be str_ _ _ _ _ _ as you have to keep t_ _ _ _ of
+                                ev_ _ _ _ _ _ is for health and safety re_ _ _ _ _ and monitored everything
+                                t_ _ _ goes on back s_ _ _ _ and keep on time. T_ _ _ once the show is o_ _ _ you
+                                 have to c_ _ _ _ everything and make a n_ _ _ of everything that needs
+                                 reparing or re doing be_ _ _ _ the next per_ _ _ _ _ _ _ _.
+
+                            </h5>
+                            <div class="dropdown  container my-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Answer
+                                </button>
+                                <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                    <p class="">As stage manager I was always the first and the last person on stage.
+                                    Working on tour can be stressful as you have to keep track of where
+                                    everyone is for health and safety reasons and monitor everything that
+                                    goes on back stage and keep to time. Then once the show is over you
+                                    have to check everything and make a note of everything that needs
+                                    repairing or re-doing before the next performance.</p>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <div class="container my-5">
+                            <h3>Complete the missing letters</h3>
+                            <h5>
+                                <hr>
+                                This would move the starting date back three years to 8 BC, and from the lunar synchronism back to 26 January(Julian).
+                                But si___ the cores ____ Roman Da ___ in t_____inscription i____ 24th January. Th____ must b__ according t__ the
+                                inco____ calendar wh___ in 9 BC August has ord_____ to b__ corrected b_ the omis____ of le__ days. As the authors of the
+                                previous paper point out, with the correct four-year cycle being used in Egypt and the three-year cycle abolished in
+                                Rome, it is unlikely that Agustus would have ordered the three-year cycle to be reduced in Asia.
+
+                            </h5>
+                            <div class="dropdown  container my-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Answer
+                                </button>
+                                <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                    <p class="">This would move the starting date back three years to 8 BC, and from the lunar synchronism back to 26 January(Julian).
+                                    But since the corresponding Roman Date in the inscription is 24th January. This must be according to the incorrect
+                                    calendar which in 9 BC August has been ordered to be corrected by the omission of leap days. As the Authors of the
+                                    previous paper point out, with the correct four-year cycle being used in Egypt and the three-year cycle abolished in
+                                    Rome, it is unlikely that Agustus would have ordered the three-year cycle to be reduced in Asia.</p>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container my-5">
+                            <h3>Complete the missing letters</h3>
+                            <h5>
+                                <hr>
+                                The Olympic game is an important international event featuring summer and winter sports. Sum__ Olympic Ga__ and Winter
+                                Olympic Games are he__ every fo__ years. Origi__, the ancient Olympic Games were he__ in Ancient Greece a__ Olympia. The
+                                First ga__ were i__776 BC. Th__ were he__ every fo__ years un__ the 6th Century AD. The fi__ “Modern”Olympics happened
+                                i__ 1896 in Athens Greece.
+
+                            </h5>
+                            <div class="dropdown  container my-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Answer
+                                </button>
+                                <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                    <p class="">The Olympic game is an important international event featuring summer and winter sports. Summer Olympic Games and Winter
+                                    Olympic Games are held every four years. Originally, the ancient Olympic Games were held in Ancient Greece at Olympia.
+                                    The first games were in 776 BC. They were held every four years until the 6th Century AD. The first “Modern” Olympics
+                                    happened in 1896 in Athens Greece</p>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container my-5">
+                            <h3>Complete the missing letters</h3>
+                            <h5>
+                                <hr>
+                                Physical exercise is recommended for management of mild depression a__ has a mode___ effect on symp__. It is equi___ to
+                                the u___ of medications or psychological ther___ for most peop___. In older peo__, it does app __ to decrease
+                                depression.
+
+                            </h5>
+                            <div class="dropdown  container my-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Answer
+                                </button>
+                                <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                    <p class="">Physical exercise is recommended for the management of mild depression and has a moderate effect on symptoms. It is
+                                    equivalent to the use of medications or psychological therapies for most people. In older people, it does appear to
+                                    decrease depression</p>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container my-5">
+                            <h3>Complete the missing letters</h3>
+                            <h5>
+                                <hr>
+                                Electrical engineering has many subdisciplines, the mo__ popular of wh__ are listed below. Although there are electrical
+                                engi__ who focus exclu__ on one of these subdi __ many de__ with a combi__ of them. Sometimes cer__ fields, such as
+                                electronic engineering a__ career engineering, are Consi___ separate disciplines in their own right.
+
+                            </h5>
+                            <div class="dropdown  container my-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Answer
+                                </button>
+                                <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                    <p class="">Electrical engineering has many subdisciplines, the most popular of which are listed below. Although there are
+                                    electrical engineers who focus exclusively on one of these subdisciplines much deal with a combination of them.
+                                    Sometimes certain fields, such as electronic engineering and career engineering, are considered separate disciplines in
+                                    their own right.</p>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container my-5">
+                            <h3>Complete the missing letters</h3>
+                            <h5>
+                                <hr>
+                                The term suburb commonly refers to an urban district on the outskirts of a city that grows more rapidly than its
+                                interior. The process o__ suburbanisation wbe__ within t__ second quarter o__ the nineteenth cen__. The emer__ of the
+                                industrial ci__ at that time was spurred lar__ by developments in trans__. Until th__ the typ_ city h__ been a comp__
+                                cluster of small bull__. People travelled primarily o__ foot, and goods were moved by horse and cart.
+
+                            </h5>
+                            <div class="dropdown  container my-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Answer
+                                </button>
+                                <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+                                    <p class="">The term suburb commonly refers to an urban district on the outskirts of a city that grows more rapidly than its
+                                    interior. The process of suburbanisation began within the second quarter of the nineteenth century. The emergence of the
+                                    industrial city at that time was spurred largely by developments in transportation. Until then the typical city had been
+                                    a compact cluster of a small building. People travelled primarily on foot, and goods were moved by horse and cart.</p>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </td>
+                </tr>
+               
+
+               
+
+
+
+
+
+
+            </tbody>
+
+        </table>
+
+
+
+
+        <!-- ****************table**************** -->
+
+
+
+        <!--		Start Pagination -->
+        <div class='pagination-container'>
+            <nav>
+                <ul class="pagination">
+
+                    <li data-page="prev">
+                        <span>
+                            <button>Prev</button>
+                            <span class="sr-only">
+                            </span>
+                        </span>
+                    </li>
+                    <!--	Here the JS Function Will Add the Rows -->
+                    <li data-page="next" id="prev">
+                        <span><button>Next</button> <span class="sr-only"></span></span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div> <!-- 		End of Container -->
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- ***********************native script*********************** -->
+    <script src="../JS/pagination.js"></script>
+
+</body>
+
+</html>
